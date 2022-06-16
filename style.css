@@ -1,0 +1,159 @@
+*{padding: 0; margin: 0;}
+
+a{text-decoration: none;
+  color: black;}
+ul{list-style: none;}
+
+body{font-family: '나눔스퀘어';
+    font-size: 100%;
+    line-height: 120%;
+    color: #98897b;}
+
+    /*header_out*/
+    #header_out{width:100%; height: 50px;background-color: #303030;}
+ 
+
+
+    /* header1 */
+    #header1{width: 1320px; margin: 0 auto; height: 50px; background-color: #303030;}
+    .header1_nav{float: right;}
+    .header1_nav li{float: left; padding: 15px 25px;}
+    .header1_nav li a{color: #98897b; box-sizing: border-box;
+        font-weight: bold;}
+    
+    /*header2_out*/
+    #header2_out{width:100%; height: 70px;background-color: #303030;}
+     
+    
+    
+    /* header2 */
+    #header2{width: 1320px; margin: 0 auto; width: 1320px; height: 70px; background-color: #303030;}
+    .logo{float: left; margin-left: 25px;}
+    
+    .header2_nav{float: right;  }
+    .header2_nav li{float: left; padding: 22px 25px 10px 120px;}
+    .header2_nav li a{color: #98897b; box-sizing: border-box; 
+        font-weight: bold; font-size: 20px;}
+
+/* bar */
+.top_bar{width: 1320px; height: 1px; margin: 105px auto;}
+.top_bar ul .home{float: left;}
+.top_bar ul .icon{float: right;}
+.icon{margin-left: 15px;}
+
+.bannerbar{position:relative;}
+
+.bannerbar img{width:100%;}
+.bannerbar_text{position:absolute; 
+    top:40%; left:50%;  margin-left:-350px;
+    color: black; text-align: center;}
+
+/* con1 */
+#con1{width: 1320px; height: 1050px; margin: 80px auto; 
+ text-align: center; }
+.con_bar{width: 1320px; background-color: #eeeded;
+        padding:20px 0; box-sizing: border-box;
+        height:55px;
+}
+
+.con_bar_left{float:left; width:20%;}
+.con_bar_center{float:left; width:60%;}
+.con_bar_center div {float:left; padding:0 70px 0 0px;}
+
+.con_bar_right{float:left; width:20%;} 
+
+.search{display:inline; background-color: #565656; color:#fff;
+    padding:10px 20px;
+}
+
+
+.con_left li{float: left; width: 200px;}
+.box{width: 20px; height: 20px; background-color: #565656;}
+
+
+.con_right .choose{float: right;}
+.choose{width: 100px; height: 60px; background-color: #565656;}
+
+.mainbanner{width: 1320px; height: 600px; margin: 90px auto; background: url(images/dining.jpg) no-repeat top center;}
+.mainbanner_p{padding: 40px 0; line-height: 20px;}
+
+
+/* con2 */
+#con2{width: 1320px; height: 500px; 
+    margin: 20px auto; padding: 30px 0;
+    border-top: solid 2px #98897b ;
+    border-bottom: solid 2px #98897b ;}
+    
+    
+    .con2_ul ul li{float: left; padding-top: 40px; padding-right: 500px;}
+    .con2_ul ul li:nth-child(3){padding-right: 0px;}
+    .con2_ul ul li:nth-child(1){padding-left: 50px;}
+    
+    
+    .con2_ul ul li a{width: 100%;}
+
+    h2{padding: 20px 0;}
+
+/* con2_img */
+#img{width: 1320px; height: 200px;
+    margin: 50px auto; }
+#img ul li{float: left; padding-right: 53px;}
+#img ul li:nth-child(4){padding-right: 0;}
+#img ul li a{display: block;}
+
+/* guide */
+#guide{width: 1320px; height: 300px; 
+    margin: 0px auto;} 
+.guideline{ border: #98897b solid 1px;}
+
+.guidegold{font-size: 35px; font-weight: 800px;
+    border-bottom: 1px solid #98897b;
+    padding:30px 30px;
+    }
+
+    .padding{padding:30px 30px;}
+
+
+    h5{background: url(images/icon.png) no-repeat left center;
+    padding: 8px 0 8px 40px; font-size: 20px;}
+
+ /*footer1*/ 
+ #footer1_out{width: 100%; height: 50px; background-color: #bdaea1}
+ .footer1{width: 1320px; height: 50px; margin: 0 auto;}
+ .footer1 ul li{float: left; padding: 15px 140px 0 0;}
+ .footer1 ul li a{display: block; 
+     color: #565656;}
+ 
+  .footer1 ul li:nth-child(6) {padding-right:0;}   
+ 
+ 
+ /*footer2*/ 
+ #footer2_out{width: 100%; 
+     /* height: 250px; */
+      background-color: #303030;}
+ .footer2{width: 1320px;margin: 0 auto;
+ position: relative;}
+ 
+ .bold{font-weight: bold;}
+ 
+ .footer_box1{padding: 50px 130px 0 0; font-size: 20px;}
+ 
+ .footer_box2{position: absolute top right 50px;  }
+ 
+ .footerlogo{padding-top: 15px;}
+ 
+ .footer2 ul{height: 100px; }
+ .footer2>ul>li{float: left;}
+ .footer2>ul>li>a{display: block;}
+ 
+ .sns ul{padding-top: 15px; }
+ 
+ .sns ul li{float: left; padding-right: 15px;}
+ 
+ 
+ select{padding:10px; background-color: beige; margin-top:50px;}
+ option{padding:10px; background-color: beige;}
+ 
+ 
+ .f{clear:both;}
+ .bold{padding-top:0;}
